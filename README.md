@@ -38,7 +38,7 @@ It is straightforward to install the Jupyter Book and Julia software necessary f
     - Choose the interpreter with `lecture-julia.myst` which should now be automatically activated in the terminal.
     - If the interpreter does not show up in the drop-down, close and reopen VS Code, then try again. Alternatively, you can run this step at the end of the setup process.
         - Whenever reopening VS Code, re-run `conda activate lecture-julia.myst` to ensure the environment remains active.
-9.  Install the Julia packages required for the lecture notes.
+9.  Install the Julia packages required for the lecture notes:
 
      ```bash
      julia --project=lectures --threads auto -e 'using Pkg; Pkg.instantiate();'
