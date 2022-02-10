@@ -57,7 +57,7 @@ With [MyST-Markdown](https://github.com/executablebooks/myst-vs-code) and [Julia
 3.  Right Click on the key binding with `juliamarkdown` on it, and choose `Change When Expression`, and change `juliamarkdown` to just `markdown`.
 
 ## Executing Code in Markdown Files
-If you installed the REPL Integration above, then in a `.md` file,
+If you installed the REPL Integration above, then in a `.md` file:
 
 1. Start a Julia REPL with `> Julia: Start REPL`.
 2. Activate the project file in the REPL with `] activate lectures`.
